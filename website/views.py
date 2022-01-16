@@ -53,81 +53,81 @@ def home():
                 if info[-4:] == "Easy":
                     
                     if "String Manipulation" in info:
-                        string_manipulation += 10
+                        string_manipulation += 1
                         string_manipulation_name.append(info)
                     
                     elif "Array" in info:
-                        arrays += 10
+                        arrays += 1
                         arrays_name.append(info)
                     
                     elif "Linked List" in info:
-                        linked_lists += 10
+                        linked_lists += 1
                         linked_lists_name.append(info)
                     
                     elif "Stack" in info:
-                        stacks += 10
+                        stacks += 1
                         stacks_name.append(info)
                     
                     elif "Queue" in info:
-                        queues += 10
+                        queues += 1
                         queues_name.append(info)                 
                     
                     elif "Hash Table" in info:
-                        hash_tables += 10
+                        hash_tables += 1
                         hash_tables_name.append(info)
 
                     elif "Binary Tree" in info:
-                        binary_trees += 10
+                        binary_trees += 1
                         binary_trees_name.append(info)
 
                     elif "Heap" in info:
-                        heaps += 10
+                        heaps += 1
                         heaps_name.append(info) 
 
                     elif "Graph" in info:
-                        graphs += 10
+                        graphs += 1
                         graphs_name.append(info)
 
                     elif "Dynamic Programming" in info or "DP" in info:
-                        dp += 10
+                        dp += 1
                         dp_name.append(info)                   
                     else:
                         pass
 
                 elif info[-6:] == "Medium":
                     if "String Manipulation" in info:
-                        string_manipulation += 20
+                        string_manipulation += 2
                         string_manipulation_name.append(info)
 
                     elif "Array" in info:
-                        arrays += 20
+                        arrays += 2
                         arrays_name.append(info)
 
                     elif "Linked List" in info:
-                        linked_lists += 20
+                        linked_lists += 2
                         linked_lists_name.append(info)
 
                     elif "Stack" in info:
-                        stacks += 20
+                        stacks += 2
                         stacks_name.append(info)
 
                     elif "Queue" in info:
-                        queues += 20
+                        queues += 2
                         queues_name.append(info)
                     elif "Hash Table" in info:
-                        hash_tables += 20
+                        hash_tables += 2
                         hash_tables_name.append(info)
                     elif "Binary Tree" in info:
-                        binary_trees += 20
+                        binary_trees += 2
                         binary_trees_name.append(info)
                     elif "Heap" in info:
-                        heaps += 20
+                        heaps += 2
                         heaps_name.append(info)
                     elif "Graph" in info:
-                        graphs += 20
+                        graphs += 2
                         graphs_name.append(info)
                     elif "Dynamic Programming" in info or "DP" in info:
-                        dp += 20
+                        dp += 2
                         dp_name.append(info)
                     else:
                         pass
@@ -135,38 +135,38 @@ def home():
                 elif info[-4:] == "Hard":
                     
                     if "String Manipulation" in info:
-                        string_manipulation += 40
+                        string_manipulation += 4
                         string_manipulation_name.append(info)
 
                     elif "Array" in info:
-                        arrays += 40
+                        arrays += 4
                         arrays_name.append(info)
 
                     elif "Linked List" in info:
-                        linked_lists += 40
+                        linked_lists += 4
                         linked_lists_name.append(info)
 
                     elif "Stack" in info:
-                        stacks += 40
+                        stacks += 4
                         stacks_name.append(info)
 
                     elif "Queue" in info:
-                        queues += 40
+                        queues += 4
                         queues_name.append(info)
                     elif "Hash Table" in info:
-                        hash_tables += 40
+                        hash_tables += 4
                         hash_tables_name.append(info)
                     elif "Binary Tree" in info:
-                        binary_trees += 40
+                        binary_trees += 4
                         binary_trees_name.append(info)
                     elif "Heap" in info:
-                        heaps += 40
+                        heaps += 4
                         heaps_name.append(info)
                     elif "Graph" in info:
-                        graphs += 40
+                        graphs += 4
                         graphs_name.append(info)
                     elif "Dynamic Programming" in info or "DP" in info:
-                        dp += 40
+                        dp += 4
                         dp_name.append(info)
                     else:
                         pass
@@ -192,81 +192,81 @@ def home():
                 if info[-4:] == "Easy":
                     
                     if "String Manipulation" in info:
-                        string_manipulation += 10
+                        string_manipulation += 1
                         string_manipulation_name.append(info)
                     
                     elif "Array" in info:
-                        arrays += 10
+                        arrays += 1
                         arrays_name.append(info)
                     
                     elif "Linked List" in info:
-                        linked_lists += 10
+                        linked_lists += 1
                         linked_lists_name.append(info)
                     
                     elif "Stack" in info:
-                        stacks += 10
+                        stacks += 1
                         stacks_name.append(info)
                     
                     elif "Queue" in info:
-                        queues += 10
+                        queues += 1
                         queues_name.append(info)                 
                     
                     elif "Hash Table" in info:
-                        hash_tables += 10
+                        hash_tables += 1
                         hash_tables_name.append(info)
 
                     elif "Binary Tree" in info:
-                        binary_trees += 10
+                        binary_trees += 1
                         binary_trees_name.append(info)
 
                     elif "Heap" in info:
-                        heaps += 10
+                        heaps += 1
                         heaps_name.append(info) 
 
                     elif "Graph" in info:
-                        graphs += 10
+                        graphs += 1
                         graphs_name.append(info)
 
                     elif "Dynamic Programming" in info or "DP" in info:
-                        dp += 10
+                        dp += 1
                         dp_name.append(info)                   
                     else:
                         pass
 
                 elif info[-6:] == "Medium":
                     if "String Manipulation" in info:
-                        string_manipulation += 20
+                        string_manipulation += 2
                         string_manipulation_name.append(info)
 
                     elif "Array" in info:
-                        arrays += 20
+                        arrays += 2
                         arrays_name.append(info)
 
                     elif "Linked List" in info:
-                        linked_lists += 20
+                        linked_lists += 2
                         linked_lists_name.append(info)
 
                     elif "Stack" in info:
-                        stacks += 20
+                        stacks += 2
                         stacks_name.append(info)
 
                     elif "Queue" in info:
-                        queues += 20
+                        queues += 2
                         queues_name.append(info)
                     elif "Hash Table" in info:
-                        hash_tables += 20
+                        hash_tables += 2
                         hash_tables_name.append(info)
                     elif "Binary Tree" in info:
-                        binary_trees += 20
+                        binary_trees += 2
                         binary_trees_name.append(info)
                     elif "Heap" in info:
-                        heaps += 20
+                        heaps += 2
                         heaps_name.append(info)
                     elif "Graph" in info:
-                        graphs += 20
+                        graphs += 2
                         graphs_name.append(info)
                     elif "Dynamic Programming" in info or "DP" in info:
-                        dp += 20
+                        dp += 2
                         dp_name.append(info)
                     else:
                         pass
@@ -274,38 +274,38 @@ def home():
                 elif info[-4:] == "Hard":
                     
                     if "String Manipulation" in info:
-                        string_manipulation += 40
+                        string_manipulation += 4
                         string_manipulation_name.append(info)
 
                     elif "Array" in info:
-                        arrays += 40
+                        arrays += 4
                         arrays_name.append(info)
 
                     elif "Linked List" in info:
-                        linked_lists += 40
+                        linked_lists += 4
                         linked_lists_name.append(info)
 
                     elif "Stack" in info:
-                        stacks += 40
+                        stacks += 4
                         stacks_name.append(info)
 
                     elif "Queue" in info:
-                        queues += 40
+                        queues += 4
                         queues_name.append(info)
                     elif "Hash Table" in info:
-                        hash_tables += 40
+                        hash_tables += 4
                         hash_tables_name.append(info)
                     elif "Binary Tree" in info:
-                        binary_trees += 40
+                        binary_trees += 4
                         binary_trees_name.append(info)
                     elif "Heap" in info:
-                        heaps += 40
+                        heaps += 4
                         heaps_name.append(info)
                     elif "Graph" in info:
-                        graphs += 40
+                        graphs += 4
                         graphs_name.append(info)
                     elif "Dynamic Programming" in info or "DP" in info:
-                        dp += 40
+                        dp += 4
                         dp_name.append(info)
                     else:
                         pass

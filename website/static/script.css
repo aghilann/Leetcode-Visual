@@ -132,13 +132,11 @@
   height: 90%;
   text-align: center;
 }
-
 .chart {
   width: 100%;
   height: 300px;
   display: block;
 }
-
 .numbers {
   color: #fff;
   margin: 0;
@@ -148,20 +146,17 @@
   display: inline-block;
   float: left;
 }
-
 .numbers li {
   list-style: none;
   height: 150px;
   position: relative;
 }
-
 .numbers span {
   font-size: 12px;
   font-weight: 600;
   position: absolute;
   right: 10px;
 }
-
 .bars {
   color: #fff;
   font-size: 12px;
@@ -172,45 +167,107 @@
   width: 900px;
   height: 300px;
 }
-
 .bars li {
   display: table-cell;
   width: 100px;
   height: 300px;
   position: relative;
 }
-
 .bars span {
   width: 100%;
   position: absolute;
-  top: 20px;
+  bottom: 250px;
   text-align: center;
 }
-
 .bars .bar {
   display: block;
   background: linear-gradient(#5adfbf, #2ec0f9, #9198e5);
   width: 40px;
   position: absolute;
-  bottom: 280px;
+  bottom: 285px;
   margin-left: 70px;
   text-align: center;
-  transition: 0.1s;
   transition-property: background, box-shadow;
   box-shadow: 0 0 10px 0 rgba (23, 192, 235, 0.5);
+  transform: scaleY(0);
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  transform-origin: bottom;
+}
+.bars .bar:before {
+  color: #fff;
+  content: attr(data-percentage) "%";
+  position: relative;
+  bottom: 20px;
+}
+
+.skill-bars .bar .info span {
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes animate {
+  100% {
+    transform: scaleY(1);
+  }
+}
+.bars .bar span {
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  background: #6665ee;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+.bar.arrays span {
+  width: 90%;
+}
+.bar span::before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.bar span::after {
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100% {
+    opacity: 1;
+  }
+}
+.bar.arrays span::after {
+  content: "90%";
 }
 
 .bars .bar:hover {
   background: #5adfbf;
   box-shadow: 0 0 10px 0 rgba(255, 0, 0, 0.5);
   cursor: pointer;
-}
-
-.bars .bar:before {
-  color: #fff;
-  content: attr(data-percentage) "%";
-  position: relative;
-  bottom: 20px;
 }
 
 .analytics {
@@ -355,16 +412,4 @@ select {
   transform: scale(1.075);
   transition: 0.3s ease-in;
   cursor: pointer;
-}
-
-.testing_class {
-  background-color: #00dbde;
-  color: #44107a;
-  text-transform: capitalize;
-}
-
-#testing_class {
-  background-color: #00dbde;
-  color: #44107a;
-  text-transform: capitalize;
 }
