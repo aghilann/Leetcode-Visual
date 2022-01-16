@@ -1,0 +1,259 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
+<h1 class="testing_class" id="testing_class" align="center">Notes</h1>
+<p>{{ arrays }}</p>
+<!-- <p>{{ string_manipulation_name }}</p>
+<p>{{ string_manipulation }}</p>
+<p>{{ arrays_name }}</p>
+<p>{{ arrays }}</p>
+<p>{{ linked_lists_name }}</p>
+<p>{{ linked_lists }}</p>
+<p>{{ stacks_name }}</p>
+<p>{{ stacks }}</p>
+<p>{{ queues_name }}</p>
+<p>{{ queues }}</p>
+<p>{{ hash_tables_name }}</p>
+<p>{{ hash_tables }}</p>
+<p>{{ binary_trees_name }}</p>
+<p>{{ binary_trees }}</p>
+<p>{{ heaps_name }}</p>
+<p>{{ heaps }}</p>
+<p>{{ graphs_name }}</p>
+<p>{{ graphs }}</p>
+<p>{{ dp_name }}</p>
+<p>{{ dp }}</p>
+<p>{{ only_name_string_manipulation }}</p>
+<p>{{ only_name_arrays }}</p>
+<p>{{ only_name_linked_lists }}</p>
+<p>{{ only_name_stacks }}</p>
+<p>{{ only_name_queues }}</p>
+<p>{{ only_name_hash_tables }}</p>
+<p>{{ only_name_binary_trees }}</p>
+<p>{{ only_name_heaps }}</p>
+<p>{{ only_name_graphs }}</p>
+<p>{{ only_name_dp }}</p> -->
+
+<ul class="list-group list-group-flush" id="notes">
+  {% for note in user.notes %}
+  <li class="list-group-item">
+    {{ note.data }}
+    <button type="button" class="close" onClick="deleteNote({{ note.id }})">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </li>
+  {% endfor %}
+</ul>
+<form method="POST">
+  <textarea name="note" id="note" class="form-control"></textarea>
+  <!-- <textarea name="diff" id="diff" class="form-control"></textarea> -->
+  <br />
+  <div align="center">
+    <button type="submit" class="btn btn-primary">Add Note</button>
+  </div>
+</form>
+
+<!-- Hero -->
+<div class="hero" id="home">
+  <div class="hero__container">
+    <!-- Bar Graph -->
+    <div class="bar__container">
+      <div class="chart">
+        <ul class="numbers">
+          <li><span>Expert</span></li>
+          <li><span>Intermediate</span></li>
+          <li><span>Beginner</span></li>
+        </ul>
+        <ul class="bars">
+          <li>
+            <div
+              class="bar"
+              id="bar-arrays"
+              data-percentage="{{ arrays }}"
+              style="height: calc({{ arrays }}% * 0.1)"
+            ></div>
+            <span id="arrays">Arrays</span>
+          </li>
+          <li>
+            <div
+              class="bar"
+              data-percentage="{{ linked_lists }}"
+              style="height: calc({{ linked_lists }}% * 0.1)"
+            ></div>
+            <span>Linked Lists</span>
+          </li>
+          <li>
+            <div
+              class="bar"
+              data-percentage="{{ stacks }}"
+              style="height: calc({{ stacks }}% * 0.1)"
+            ></div>
+            <span>Stacks</span>
+          </li>
+          <li>
+            <div
+              class="bar"
+              data-percentage="{{ queues }}"
+              style="height: calc({{ queues }}% * 0.1)"
+            ></div>
+            <span>Queues</span>
+          </li>
+          <li>
+            <div
+              class="bar"
+              data-percentage="{{ hash_tables }}"
+              style="height: calc({{ hash_tables }}% * 0.1)"
+            ></div>
+            <span>Hash Tables</span>
+          </li>
+          <li>
+            <div
+              class="bar"
+              data-percentage="{{ binary_trees }}"
+              style="height: calc({{ binary_trees }}% * 0.1)"
+            ></div>
+            <span>Binary Trees</span>
+          </li>
+          <li>
+            <div
+              class="bar"
+              data-percentage="{{ heaps }}"
+              style="height: calc({{ heaps }}% * 0.1)"
+            ></div>
+            <span>Heaps</span>
+          </li>
+          <li>
+            <div
+              class="bar"
+              data-percentage="{{ graphs }}"
+              style="height: calc({{ graphs }}% * 0.1)"
+            ></div>
+            <span>Graphs</span>
+          </li>
+          <li>
+            <div
+              class="bar"
+              data-percentage="{{ dp }}"
+              style="height: calc({{ dp }}% * 0.1)"
+            ></div>
+            <span>Dynamic Programming</span>
+          </li>
+          <li>
+            <div
+              class="bar"
+              data-percentage="{{ string_manipulation }}"
+              style="height: calc({{ string_manipulation }}% * 0.1)"
+            ></div>
+            <span>String Manipulation</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <br />
+    <br />
+    <!-- Sign up form -->
+
+    <!-- Sections -->
+
+    <!-- Services Section -->
+    <!-- add scroll across feature -->
+    <div class="services" id="services">
+      <h1>Strengthen your Knowledge</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Dynamic Programming</h2>
+          <div
+            class="services__btn"
+            onclick="window.location.href='https://leetcode.com/explore/learn/card/dynamic-programming/'"
+          >
+            <button>Learn More</button>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h2>Heap</h2>
+          <div
+            class="services__btn"
+            onclick="window.location.href='https://leetcode.com/explore/learn/card/heap/'"
+          >
+            <button>Learn More</button>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h2>Graph</h2>
+          <div
+            class="services__btn"
+            onclick="window.location.href='https://leetcode.com/explore/learn/card/graph/'"
+          >
+            <button>Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Arrays and Strings</h2>
+          <div
+            class="services__btn"
+            onclick="window.location.href='https://leetcode.com/explore/learn/card/array-and-string/'"
+          >
+            <button>Learn More</button>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h2>Linked List</h2>
+          <div
+            class="services__btn"
+            onclick="window.location.href='https://leetcode.com/explore/learn/card/linked-list/'"
+          >
+            <button>Learn More</button>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h2>Stacks</h2>
+          <div
+            class="services__btn"
+            onclick="window.location.href='https://leetcode.com/explore/learn/card/queue-stack/'"
+          >
+            <button>Learn More</button>
+          </div>
+        </div>
+      </div>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Hash Tables</h2>
+          <div
+            class="services__btn"
+            onclick="window.location.href='https://leetcode.com/explore/learn/card/hash-table/'"
+          >
+            <button>Learn More</button>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h2>Queues</h2>
+          <div
+            class="services__btn"
+            onclick="window.location.href='https://leetcode.com/explore/learn/card/queue-stack/'"
+          >
+            <button>Learn More</button>
+          </div>
+        </div>
+
+        <div class="services__card">
+          <h2>Binary Tree</h2>
+          <div
+            class="services__btn"
+            onclick="window.location.href='https://leetcode.com/explore/learn/card/data-structure-tree/'"
+          >
+            <button>Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sections -->
+    {% endblock %}
+  </div>
+</div>
