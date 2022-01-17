@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<h3 align="center">Leetcode Visualizer</h3>
+<h3 align="center">https://leetcode-visual.herokuapp.com/</h3>
 
   <p align="center">
     From Aghilan Nathan
