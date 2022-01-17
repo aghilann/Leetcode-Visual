@@ -156,7 +156,7 @@ Project Link: [https://leetcode-visual.herokuapp.com/](https://leetcode-visual.h
 
 * Benny Chinvanich - I apologize for you having to flip flop around so much and constantly learning things, I know you had various roles and were forced to be all over the place. I thank you for your versatility.
 
-* Rise - You and Kevin designed the only parts of the UI that did not look horrible, it was unfortunate not everything made it in but I greatly appreciate the work you did in CSS that ensured the bar graph was successful. 
+* Rissa - You and Kevin designed the only parts of the UI that did not look horrible, it was unfortunate not everything made it in but I greatly appreciate the work you did in CSS that ensured the bar graph was successful. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
