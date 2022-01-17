@@ -70,7 +70,7 @@ We submitted with 2 minutes to spare.
 Our submission is not perfect, or anywhere close to it but it taught me many valauble lessons. Suprisingly, my biggest takeways were not actually coding related, it was the soft skills I imporved upon. 
 This intense and demanding Hackathon taught me key lessons such as what tasks you should delegate and what you should do yourself, how to work under heavy deadlines as well as ensuring the team was in track and knew what they were doing. 
 
-[YouTube Video expplaing the project submission](https://www.youtube.com/watch?v=zlDN6rarDLI)
+[YouTube Video explaining the project submission](https://www.youtube.com/watch?v=zlDN6rarDLI)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
