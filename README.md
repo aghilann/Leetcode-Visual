@@ -5,8 +5,6 @@
 
 
 <!-- PROJECT LOGO -->
-<img width="581" alt="image" src="https://user-images.githubusercontent.com/90127404/149838885-9d63c6fa-21d6-4770-887d-87c6e30e2fee.png">
-
 <br />
 <div align="center">
 <h3 align="center">https://leetcode-visual.herokuapp.com/</h3>
@@ -71,6 +69,9 @@ We submitted with 2 minutes to spare.
 
 Our submission is not perfect, or anywhere close to it but it taught me many valauble lessons. Suprisingly, my biggest takeways were not actually coding related, it was the soft skills I imporved upon. 
 This intense and demanding Hackathon taught me key lessons such as what tasks you should delegate and what you should do yourself, how to work under heavy deadlines as well as ensuring the team was in track and knew what they were doing. 
+
+<img width="581" alt="image" src="https://user-images.githubusercontent.com/90127404/149838903-4393b217-7cd6-4a97-ab4b-42f6aaaceeea.png">
+
 
 [YouTube Video explaining the project submission](https://www.youtube.com/watch?v=zlDN6rarDLI)
 
