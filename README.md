@@ -7,14 +7,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<h3 align="center">https://leetcode-visual.herokuapp.com/</h3>
+<h3 align="center">Leetcode Visualizer</h3>
 
   <p align="center">
     From Aghilan Nathan
     <br />
     <br />
     <br />
-    <a href="https://split-fare.herokuapp.com/">Production Site</a>
+    <a href="https://leetcode-visual.herokuapp.com/">Production Site</a>
     ·
     <a href="mailto:nathanaghilan@gmail.com">Report Bug</a>
     ·
