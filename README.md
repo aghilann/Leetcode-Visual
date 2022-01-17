@@ -7,7 +7,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-<h3 align="center">Split Fare</h3>
+<h3 align="center">Leetcode Visualizer</h3>
 
   <p align="center">
     From Aghilan Nathan
